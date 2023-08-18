@@ -240,13 +240,13 @@ combined = Model(z, valid)
 combined.compile(loss='binary_crossentropy', optimizer=optimizer)
 
 
-train(epochs=100000, batch_size=32, save_interval=2000)
+train(epochs=38000, batch_size=32, save_interval=37999)
 
 #Save model for future use to generate fake images
 #Not tested yet... make sure right model is being saved..
 #Compare with GAN4
 
-generator.save('generator_model_100k.h5')  #Test the model on GAN4_predict...
+generator.save('generator_model_38k.h5')  #Test the model on GAN4_predict...
 #Change epochs back to 30K
                 
 #Epochs dictate the number of backward and forward propagations, the batch_size
