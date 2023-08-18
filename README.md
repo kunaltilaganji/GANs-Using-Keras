@@ -42,4 +42,3 @@ For questions or feedback, please feel free to reach out:
 - Author: Kunal Tilaganji
 
 Project Link: [https://github.com/kunaltilaganji/GANs-Using-Keras](https://github.com/kunaltilaganji/GANs-Using-Keras)
-```
